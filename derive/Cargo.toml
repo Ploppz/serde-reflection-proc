@@ -1,0 +1,13 @@
+[package]
+name = "serde-reflection-proc-derive"
+version = "0.1.0"
+authors = ["Erlend Langseth <3rlendhl@gmail.com>"]
+edition = "2018"
+
+[lib]
+proc-macro = true
+
+[dependencies]
+syn = "1.0.18"
+quote = "1.0.3"
+proc-macro2 = "1.0.10"
